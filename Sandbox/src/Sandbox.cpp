@@ -9,6 +9,7 @@
 
 int main() {
 
+    //check for memory leaks by comparing before and after
     _CrtMemState sOld;
     _CrtMemState sNew;
     _CrtMemState sDiff;
